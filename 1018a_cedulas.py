@@ -1,0 +1,7 @@
+tempo_tt_seg = int(input())
+quantd_hr = int(tempo_tt_seg/3600)
+resto_hr = int(tempo_tt_seg%3600)
+quantd_min = int(resto_hr/60)
+resto_min = int(resto_hr%60)
+quantd_seg = int(resto_min)
+print("%d:%d:%d" % (quantd_hr,quantd_min,quantd_seg))
